@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Unbounded:wght@300&display=swap"
+        rel="stylesheet">
+
+       
+
+
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/41a95ab1aa.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <section class="home" id="Home">
+        <navbar class="navbar">
+            <div class="logo">
+                <h1>P<span>ortfolio</span></h1>
+            </div>
+            <div class="navbar-child">
+                <div class="menu" id="menua">
+                    <ul id="menua">
+                        <li><a href="#Home"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="#About"><i class="fa fa-user"></i>About</a></li>
+                        <li><a href="#Project"><i class="fa fa-folder-open"></i>Projects</a></li>
+                        <li><a href="#Contact"><i class="fa fa-phone-square"></i>Contact </a></li>
+                        <i class="fa fa-times i" onclick="cclose()"></i>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hambar">
+                <i class="fa fa-bars" onclick="opsen()"></i>
+            </div>
+        </navbar>
+        <!-- irks sslio salroi a;roooooo  -->
+        <div class="main-content">
+            <div class="main-content-child">
+                <div class="source-links">
+                    <a href="https://www.instagram.com/ratinderpreet_singh23/"><i class="fab fa-instagram"></i> </a>
+                    <a href="#"> <i class="fab fa-youtube"></i> </a>
+                    <a href="https://www.facebook.com/ratinder.preet.5"> <i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+
+                <div class="ratinder-text">
+                    <h2>Hi'I am</h2>
+                    <h1>Ratinderpreet Singh</h1>
+                    <h4>web developer</h4>
+                    <div class="ratinder-text-btn">
+                        <!-- <button>Download CV</button> -->
+                       <a href="mailto:ratinderpreetsingh802@gmail.com"> <button>Hire Me <i class="fa fa-sign-out"></i></button></a>
+                    </div>
+                </div>
+
+                <div class="ratinder-image">
+                    <img id="img1" src="images/backpicture.png">
+                    <img id="img2" src="images/ratinderfront.png">
+                </div>
+
+            </div>
+
+        </div>
+        </setion>
+        <!---------------------- About ------------------- -->
+        <section class="about" id="About">
+            <h1>About Me</h1>
+            <span>-My Intro-</span>
+            <div class="about-child">
+                <div class="about-child-img">
+                    <img src="images/aboutratinder.jpg">
+                </div>
+
+                <div class="about-child-text">
+
+                    <p class="about-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ad id, totam
+                        voluptatum ab commodi architecto sequi officiis natus exercitationem dolorem nam, ex dignissimos
+                        cumque illum quos ullam ea adipisci!</p>
+                    <div class="about-des">
+                        <h3>Education</h3>
+                        <p>-B.sc (Computer sci)</p>
+                        <p>-MCA</p>
+                    </div>
+
+                    <div class="about-des">
+                        <h3>Skills</h3>
+                        <p>-HTML</p>
+                        <p>-CSS</p>
+                        <p>-JAVASCRIPT</p>
+                    </div>
+                   <a href="images/ratinder.pdf" download>  <button>Download CV <i class="fa fa-download"></i> </button> </a>     
+                </div>
+            </div>
+
+        </section>
+        <section class="Project" id="Project">
+
+           <h1>Sorry ! we are working on it.</h1>
+
+        </section>
+        <!----------------------- contact us ----------------->
+        <section class="contact" id="Contact">
+            <h1>Contact Me</h1>
+            <span>-Get in Touch</span>
+            <div class="contact-box">
+
+                <div class="contact-link">
+
+                    <div class="contact-link-box">
+                       <a href="tel:+916283866261"> <i class="fa fa-phone"></i></a>
+                        <div class="div">
+                            <h3>Call Me</h3>
+                            <span>62838-66261</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-link-box">
+                        <a href="mailto:ratinderpreetsingh802@gmail.com"><i class="fa fa-envelope-square"></i></a>
+                        <div class="div">
+                            <h3>Email</h3>
+                            <span>ratinderpreetsingh802@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-link-box">
+                       <a href="https://www.google.com/maps/place/Thuha,+Punjab+140417/@30.5013979,76.6581881,16z/data=!3m1!4b1!4m5!3m4!1s0x390fc341b49f8841:0xa3377d29c2be9b25!8m2!3d30.5001101!4d76.662929"><i class="fa fa-map-marker"></i></a> 
+                        <div class="div">
+                            <h3>Location</h3>
+                            <span>VPO-Thuha ,Rajpura ,patiala</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form">
+
+                    <form name="submit-to-google-sheet" action="" class="form-action">
+                        <div class="form-action-child ">
+                            <div class="input-box">
+                                <input type="text" name="Name" placeholder="Enter your Name">
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="Email" placeholder="Email">
+                            </div>
+                            <div class="input-box">
+                                <input type="text" name="Project" placeholder="Your Projects">
+                            </div>
+                            <div class="input-box">
+                               <textarea name="Message" placeholder="message"></textarea>
+                            </div>
+
+                            <button onclick="alerrt()">Send Message <i class="fa fa-share-square"></i></button>
+                 
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- -----footer---- -->
+        <footer class="footer">
+            <div class="footer-child">
+                <h1>P<span>ortfolio</span></h1>
+                <h4>Follow Us</h4>
+                <div class="follow-us">
+                    <a href="https://www.instagram.com/ratinderpreet_singh23/"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/ratinder.preet.5"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/Ratinderpreet23"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>Create By Ratinderpreet singh | All Right Reserved</p>
+            </div>
+            
+        </footer>
+        <script src="portfolio.js"></script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzb1HpWsDUL_JeuVb1rCusAgYo1sesgVZH_N6aYRgcIgLuWC9iLlGDZOxXjrPzAvZeRMA/exec'
+            const form = document.forms['submit-to-google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+</body>
+
+</html>
